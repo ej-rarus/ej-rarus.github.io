@@ -147,3 +147,7 @@ body {
     padding-top: 2rem;
     width: 50%;
 }
+
+.article video {
+    padding-top: 2rem;
+}
