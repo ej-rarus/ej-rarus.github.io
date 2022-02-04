@@ -111,15 +111,17 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:center;
-    align-items:center;
-    width: auto;
+    align-items:flex-start;
+    width: 100%;
     height:fit-content;
     border-left: 1px lightgray solid;
 }
 
 .article {
-    padding: 20px;
+    padding: 30px;
+    padding-left: 60px;
     width: 60%;
+    height: fit-content;
 }
 
 .article h1{
@@ -143,5 +145,5 @@ body {
 
 .article img {
     padding-top: 2rem;
-    width: 70%;
+    width: 50%;
 }
