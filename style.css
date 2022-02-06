@@ -46,7 +46,7 @@ body {
 }
 
 .button {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 900;
     padding: 15px;
 }
@@ -68,7 +68,6 @@ body {
     margin: 0;
 }
 
-
 .left-menu-button-wrap {
     display: flex;
     flex-direction: column;
@@ -77,7 +76,6 @@ body {
     text-align: center;
     padding-top: 2rem;
 }
-
 
 .left-menu-button-top {
     font-weight: 900;
@@ -92,6 +90,7 @@ body {
     font-weight: 900;
     padding: 1rem;
 }
+
 .left-menu-button-wrap a {
     color: #123277;
 }
@@ -138,8 +137,22 @@ body {
 }
 
 .article p{
-    font-family: sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    line-height: 2.3rem;
+}
+
+.article pre {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    line-height: 2.3rem;
+}
+
+.article li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.4rem;
     padding-top: 1rem;
 }
 
