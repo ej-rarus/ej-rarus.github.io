@@ -271,7 +271,7 @@ body {
     }
     
     .left-menu-button-wrap {
-        display: flex;
+        display: none;
         flex-direction: column;
         width: inherit;
         height: 100%;
@@ -279,23 +279,7 @@ body {
         padding-top: 2rem;
     }
     
-    .left-menu-button-top {
-        font-weight: 900;
-        padding: 1rem;
-        font-size: 30px;
-        color: #123277;
-        padding-bottom: 2rem;
     
-    }
-    
-    .left-menu-button {
-        font-weight: 900;
-        padding: 1rem;
-    }
-    
-    .left-menu-button-wrap a {
-        color: #123277;
-    }
     
     .welcome {
         display:flex;
@@ -319,7 +303,6 @@ body {
         align-items:flex-start;
         width: 100%;
         height:fit-content;
-        border-left: 1px lightgray solid;
     }
     
     .article {
