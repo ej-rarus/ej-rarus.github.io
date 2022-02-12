@@ -53,6 +53,10 @@ body {
     padding: 15px;
 }
 
+.mo-button{
+    display: none;
+}
+
 .content-wrap{
     display: flex;
     flex-direction: row;
@@ -112,7 +116,7 @@ body {
 }
 
 #pixel-welcome {
-    width: 40%;
+    width: 20%;
 }
 
 .article-wrap {
@@ -249,8 +253,11 @@ body {
     }
     
     .mo-button {
+        display: flex;
         font-size: medium;
         font-weight: 900;
+        padding: 0.1rem;
+        margin: 0.5rem;
     }
 
     .content-wrap{
@@ -260,7 +267,7 @@ body {
     }
     
     .left-menu {
-        display: flex;
+        display: none;
         flex-direction: row;
         font-family: 'nanumsquare';
         font-size: 20px;
@@ -279,8 +286,6 @@ body {
         padding-top: 2rem;
     }
     
-    
-    
     .welcome {
         display:flex;
         flex-direction: column;
@@ -293,6 +298,10 @@ body {
     
     #greeting {
         font-size: 3rem;
+    }
+
+    #pixel-welcome {
+        width: 20%;
     }
 
     .article-wrap {
@@ -348,7 +357,7 @@ body {
     
     .article img {
         padding-top: 2rem;
-        width: 50%;
+        width: 25rem;
     }
     
     #profile {
@@ -357,6 +366,10 @@ body {
     
     .article video {
         padding-top: 2rem;
+    }
+
+    iframe {
+        width:fit-content;
     }
     
     #contact {
