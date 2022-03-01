@@ -20,10 +20,14 @@ html {
 
 body {
     height: 100%;
-
+    padding-top: 50px;
 }
 
 .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -227,10 +231,15 @@ body {
     
     body {
         height: 100%;
+        padding-top: 10%;
     
     }
     
     .nav {
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
         display: flex;
         justify-content: flex-end;
         align-items: center;
