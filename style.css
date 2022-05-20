@@ -118,15 +118,19 @@ body {
 #greeting {
     font-size: 7rem;
     margin-bottom: 2.5rem;
- 
+    animation-duration: 0.6s;
+    animation-name: wow;
+    animation-iteration-count: infinite;
 }
 
 #pixel-welcome {
     width: 20%;
-    animation-duration: 2s;
+    animation-duration: 0.3s;
     animation-name: slide;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
 }
 
 .article-wrap {
@@ -226,15 +230,25 @@ body {
 
 @keyframes slide {
 
-    0%{
-        transform: rotate(0deg);
-    }
-
     100%{
-        transform: rotate(360deg);
+        transform: rotate(5deg);
     }
 }
 
+@keyframes wow {
+
+    0%{
+        transform: scale(1,1);
+    }
+
+    50%{
+        transform: scale(1.25,1.25);
+    }
+
+    100%{
+        transform: scale(1,1);
+    }
+}
 
 /* 태블릿 */
 @media screen and (max-width:1023px) {
