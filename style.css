@@ -117,10 +117,16 @@ body {
 
 #greeting {
     font-size: 7rem;
+    margin-bottom: 2.5rem;
+ 
 }
 
 #pixel-welcome {
     width: 20%;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .article-wrap {
@@ -218,6 +224,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes slide {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 
 /* 태블릿 */
