@@ -7,6 +7,7 @@
     "contents contents contents nav" 1fr
     "contents contents contents nav" 1fr
     "footer footer footer footer" 1fr;
+    justify-content: center;
 }
 
 .header {
