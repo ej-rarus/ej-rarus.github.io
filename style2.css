@@ -1,0 +1,30 @@
+.page-grid {
+    display: grid;
+    gap: 10px;
+    height: 50vh;
+    grid-template:
+    "header header header header" 1fr
+    "contents contents contents nav" 1fr
+    "contents contents contents nav" 1fr
+    "footer footer footer footer" 1fr;
+}
+
+.header {
+    background-color: yellowgreen;
+    grid-area: header;
+}
+
+.contents {
+    background-color: violet;
+    grid-area: contents;
+}
+
+.nav {
+    background-color: aquamarine;
+    grid-area: nav;
+}
+
+.footer {
+    background-color: blue;
+    grid-area: footer;
+}
