@@ -1,0 +1,13 @@
+data = [
+    {
+        "name": "Tony",
+        "age": 32,
+        "city": "Seoul"
+    },
+
+    {
+        "name": "Jack",
+        "age":22,
+        "city":"NewYork"
+    }
+]
