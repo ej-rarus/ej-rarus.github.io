@@ -8,7 +8,10 @@
     padding: 0;
 }
 
-a { text-decoration: none; color: white; }
+a { text-decoration: none; 
+    color: white; 
+    overflow: hidden;
+    word-break: break-all;}
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
@@ -157,6 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
+    font-weight: bold;
 }
 
 .article h1{
@@ -265,7 +269,8 @@ body {
         padding: 0;
     }
     
-    a { text-decoration: none; color: white; }
+    a { text-decoration: none; color: white; overflow: hidden;
+        word-break: break-all;}
     a:visited { text-decoration: none; }
     a:hover { text-decoration: none; }
     a:focus { text-decoration: none; }
@@ -430,6 +435,7 @@ body {
     .article p span {
         width: 100%;
         margin-bottom: 0.7rem;
+        font-weight: 700;
 
     }
 
